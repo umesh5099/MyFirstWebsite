@@ -117,6 +117,55 @@ body {
 
 /* //////////////////////////////////// image slideshow ////////////////////////////// */
 
+
+/* //////////////////////////////////// main ////////////////////////////// */
+
+main {
+    background: whitesmoke;
+}
+
+.main_heading {
+    margin: 3rem 0rem 1rem 0rem;
+    /* background: yellow; */
+}
+
+.quality_heading {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-decoration: underline;
+    font-family: 'Mulish', sans-serif;
+}
+
+.quality_heading_content {
+    text-align: justify;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+    padding: 2rem 3rem 3rem 3rem;
+    font-family: sans-serif;
+}
+
+.quality_images {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    /* justify-content: center; */
+}
+
+.images_quality {
+    width: 11rem;
+    height: 11rem;
+}
+
+.service_heading {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-decoration: underline;
+    font-family: 'Mulish', sans-serif;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -177,6 +226,14 @@ footer .services ul li a {
 .social .social_icons a {
     margin: 0 2rem;
     color: rgb(102, 100, 100);
+}
+
+.fa-facebook-official:hover {
+    color: blue;
+}
+
+.fa-twitter-square:hover {
+    color: rgb(17, 172, 233);
 }
 
 
