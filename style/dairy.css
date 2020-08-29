@@ -236,6 +236,14 @@ footer .services ul li a {
     color: rgb(17, 172, 233);
 }
 
+.fa-instagram:hover {
+    color: tomato;
+}
+
+.fa-whatsapp:hover {
+    color: green;
+}
+
 
 /* ////////////////////////////////////// responsive ///////////////////////////////// */
 
